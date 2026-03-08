@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume 2026</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --border: #d1d5db;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      background: linear-gradient(160deg, #eef2ff 0%, var(--bg) 55%, #f8fafc 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+
+    .viewer {
+      width: min(1100px, 100%);
+      height: min(90vh, 1200px);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .fallback {
+      margin: 0;
+      padding: 16px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .viewer {
+        height: 88vh;
+        border-radius: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viewer">
+    <iframe src="./Resume_2026.pdf" title="Resume 2026 PDF">
+      <p class="fallback">
+        Your browser cannot display this PDF.
+        <a href="./Resume_2026.pdf" target="_blank" rel="noopener noreferrer">Open or download it here</a>.
+      </p>
+    </iframe>
+  </main>
+</body>
+</html>
