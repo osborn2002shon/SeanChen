@@ -4,7 +4,7 @@ This repository hosts the source for Sean Chen's GitHub Pages site.
 
 ## Live Site
 
-- URL: `https://seanchen.github.io`
+- URL: `https://github.com/osborn2002shon/SeanChen/index.html`
 
 ## Project Structure
 
