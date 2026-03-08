@@ -8,7 +8,5 @@ This repository hosts the source for Sean Chen's GitHub Pages site.
 
 ## Project Structure
 
-- `index.html`: GitHub Pages default entry page (auto-redirects to `Index.html`)
-- `Index.html`: Main page that displays the resume PDF in an embedded viewer
+- `index.html`: Main page (GitHub Pages default entry file) that displays the resume PDF in an embedded viewer
 - `Resume_2026.pdf`: Resume document
-
